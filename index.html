@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="twoBox">
+        <div class = "title">
+            <h1>Grocery List</h1>
+        </div>
+        <hr>
+
+    </div>
+
+    <div class="twoBox">
+        <div class = "title">
+            <h1>Tools</h1>
+        </div>
+        <hr>
+        <p>Add Item:</p>
+        <input id = "itemInput" type="text">
+        <hr>
+        <label for="filter">Filter:</label>
+        <select name="filterOptions" id="filterOptions">
+        <option value="NF">No Filter</option>
+        <option value="VOPI">View Only Purchased Items</option>
+        <option value="VOUI">View Only Unpurchased Items</option>
+        </select>
+        <hr>
+    </div>
+
+    <script src="javabean.js"></script>
+</body>
+</html>

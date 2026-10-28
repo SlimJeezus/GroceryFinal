@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('background.jpg'); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    background-attachment: fixed; 
+}
+
+.twoBox {
+    display : flex;
+    float: left;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 400px;
+    background-color: darkgray;
+    border-radius: 12px;
+    margin: 100px;
+    border: 2px solid black;
+}
+
+.twoBox:first-child {
+    min-height: 500px;
+    background-color: whitesmoke;
+}
+
+.title {
+    display : flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    justify-content: flex-end;
+}
+
+hr {
+    width: 90%;
+    height: 4px;
+    background-color: black;
+    margin: 10px auto;
+}
+
