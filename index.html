@@ -11,25 +11,32 @@
         <div class = "title">
             <h1>Grocery List</h1>
         </div>
+
         <hr>
 
+        <div id="groceryItems"></div>
     </div>
 
     <div class="twoBox">
         <div class = "title">
             <h1>Tools</h1>
         </div>
+
         <hr>
-        <p>Add Item:</p>
-        <input id = "itemInput" type="text">
+
+        <input id="itemInput" type="text" placeholder="Enter a grocery item">
+        <button id="addItemButton" onclick="addItem()" type="button">Add Item</button>
+
         <hr>
-        <label for="filter">Filter:</label>
+
         <select name="filterOptions" id="filterOptions">
         <option value="NF">No Filter</option>
         <option value="VOPI">View Only Purchased Items</option>
         <option value="VOUI">View Only Unpurchased Items</option>
         </select>
+
         <hr>
+
     </div>
 
     <script src="javabean.js"></script>

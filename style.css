@@ -53,3 +53,17 @@ hr {
     margin: 10px auto;
 }
 
+#groceryItems {
+    width: 90%;
+    padding: 10px;
+}
+
+#groceryItems p {
+    padding: 8px;
+    border-bottom: 1px solid lightgray;
+    text-align: left;
+}
+
+#groceryItems p:hover {
+    background-color: #e8e8e8;
+}
